@@ -14,7 +14,7 @@ README.md в вашем репозитории
 репозитории
 
 #### Решение:
-`ssh-keygen -t rsa -f ~/.ssh/appuser -C appuser -P`  гененрирую пару ключей для пользователя appuser
+` ssh-keygen -t rsa -f ~/.ssh/appuser -C appuser -P `  гененрирую пару ключей для пользователя appuser
 
 `cat ~/.ssh/appuser.pub`  kопирую содержимое публичного  ключа и добавляю его в GKE в разделе метаданные, SSH ключи
 
