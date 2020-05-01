@@ -32,7 +32,8 @@ User appuser определяю пользователя по умолчанию
 IdentityFile ~/.ssh/appuser определяю id_rsa для хоста someinternalhost
 ProxyCommand ssh bastion nc %h %p  опеределяю ssh проксирование через хост bastion`
 ssh bastion захожу по имени хоста без указания  флага -A и имени пользователя
-ssh someinternalhost  захожу по имени хоста с внутренним ip в одну команду 
+ssh someinternalhost  захожу по имени хоста с внутренним ip в одну команду
+
 ```
 
 #### Задание
